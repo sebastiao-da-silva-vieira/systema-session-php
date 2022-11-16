@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20,147,220), rgb(17,54,71));
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+}
+fieldset{
+    border: 3px solid dodgerblue;
+}
+legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+
+    border-radius: 5px;
+}
+.inputbox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+   
+}
+.labelinput{
+   /* position: absolute;
+    top: 0px;
+    left: 0px;*/
+    pointer-events: none;
+    transition: 5s;
+}
+/*.inputUser:focus -.labelinput,
+.inputUser:valid - .labelinput{
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}*/
+#submit{
+    background-image: linear-gradient(to right, rgb(20,147,220), rgb(17,54,71));
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+}
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(170, 20, 220), rgb(17,54,71));
+}
